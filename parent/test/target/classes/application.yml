@@ -1,0 +1,21 @@
+server:
+  port: 8080
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: wechat
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    com.github.binarywang.demo.wechat: DEBUG
+
+wechat:
+  mp:
+    appId: wx11f9006e25716b08
+    secret: 0ee8bef35e4df9d7f9ed7200861baa9c
+    token:  zmffighting
+    aesKey:

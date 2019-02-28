@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/shop-api/shopapi.iml" filepath="$PROJECT_DIR$/parent/shop-api/shopapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/shop-api/shop-api-order/shopapiorder.iml" filepath="$PROJECT_DIR$/parent/shop-api/shop-api-order/shopapiorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/shop-common/shopcommon.iml" filepath="$PROJECT_DIR$/parent/shop-common/shopcommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/shop-eurake-server/shopeurakeserver.iml" filepath="$PROJECT_DIR$/parent/shop-eurake-server/shopeurakeserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/shop-member/shopmember.iml" filepath="$PROJECT_DIR$/parent/shop-member/shopmember.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/shop-api/shop-member-spi/shopmemberspi.iml" filepath="$PROJECT_DIR$/parent/shop-api/shop-member-spi/shopmemberspi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/shop-message/shopmessage.iml" filepath="$PROJECT_DIR$/parent/shop-message/shopmessage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/shop-order/shoporder.iml" filepath="$PROJECT_DIR$/parent/shop-order/shoporder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/shop-pay/shoppay.iml" filepath="$PROJECT_DIR$/parent/shop-pay/shoppay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/shop-api/shop-pay-api/shoppayapi.iml" filepath="$PROJECT_DIR$/parent/shop-api/shop-pay-api/shoppayapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/shop-pc-web/shoppcweb.iml" filepath="$PROJECT_DIR$/parent/shop-pc-web/shoppcweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/test/test-wechat.iml" filepath="$PROJECT_DIR$/parent/test/test-wechat.iml" />
+    </modules>
+  </component>
+</project>

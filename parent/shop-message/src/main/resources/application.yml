@@ -1,0 +1,36 @@
+server:
+  port: 8763
+  context-path: /message
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: message
+  activemq:
+    broker-url: tcp://localhost:61616
+    in-memory: true
+    pool:
+      enabled: false
+  mail:
+    host: smtp.163.com
+    username: zmffit@163.com
+    password: abc12345
+    enable:  true
+    smtp:
+      auth: true
+    starttls:
+      enable: true
+      required: true
+########################################
+
+msg:
+  subject: zmf，会员注册成功邮件。
+  text:  恭喜您的账户{},注册成功!
+messages:
+  queue:message_queue
+
+#  string smtpServer = "smtp.163.com"; //SMTP服务器
+#  string mailFrom = "zmffit@163.com"; //登陆用户名
+#  string userPassword = "abc12345";//授权码密码

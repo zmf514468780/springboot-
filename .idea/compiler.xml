@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shopapiorder" />
+        <module name="shopcommon" />
+        <module name="shopeurakeserver" />
+        <module name="shopmember" />
+        <module name="shopmemberspi" />
+        <module name="shopmessage" />
+        <module name="shoporder" />
+        <module name="shoppay" />
+        <module name="shoppayapi" />
+        <module name="shoppcweb" />
+        <module name="test-wechat" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="parent" target="1.8" />
+      <module name="shopapi" target="1.8" />
+      <module name="shopapiorder" target="1.8" />
+      <module name="shopcommon" target="1.8" />
+      <module name="shopeurakeserver" target="1.8" />
+      <module name="shopmember" target="1.8" />
+      <module name="shopmemberspi" target="1.8" />
+      <module name="shopmessage" target="1.8" />
+      <module name="shoporder" target="1.8" />
+      <module name="shoppay" target="1.8" />
+      <module name="shoppayapi" target="1.8" />
+      <module name="shoppcweb" target="1.8" />
+      <module name="shopweixin" target="1.8" />
+      <module name="shopwx" target="1.8" />
+      <module name="test-wechat" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

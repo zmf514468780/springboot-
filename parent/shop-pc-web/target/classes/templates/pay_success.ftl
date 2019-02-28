@@ -1,0 +1,1 @@
+${out_trade_no}  ${trade_no}  ${total_amount}
