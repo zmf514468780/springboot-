@@ -20,7 +20,7 @@ spring:
   ### 数据库连接
   datasource:
     name: test
-    url: jdbc:mysql://localhost:3306/zmf-shop-pay?useUnicode=true&characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://localhost:3306/zmf-shop-pay789?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
     password: panda123
     # 使用druid数据源
