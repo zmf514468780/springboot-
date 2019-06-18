@@ -12,7 +12,7 @@ Shop-order:商品模块。8769 端口<br>
 shop-eurake-server：springcloud eureka server 注册模块：用以启动eurake 服务，作为注册中心。 端口：8761 localhost:8761<br>
 Pc端登录：http://localhost:8764/login<br>
 其他需要启动的服务：<br>
-    *1.activamq ：http://127.0.0.1:8161/admin/         admin ； admin<br>
+   * 1.activamq ：http://127.0.0.1:8161/admin/         admin ； admin<br>
           cd Downloads/apache-activemq-5.15.8/bin/<br>
         zmf:bin zmf$ ./activemq start        <br>
    * 2.redis <br>
