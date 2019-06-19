@@ -1,0 +1,60 @@
+-- MySQL dump 10.13  Distrib 5.7.17, for macos10.12 (x86_64)
+--
+-- Host: 127.0.0.1    Database: zmf-shop
+-- ------------------------------------------------------
+-- Server version	8.0.11
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `mb_user`
+--
+
+DROP TABLE IF EXISTS `mb_user`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `mb_user` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) NOT NULL COMMENT '用户名',
+  `password` varchar(32) NOT NULL COMMENT '密码，加密存储',
+  `phone` varchar(20) DEFAULT NULL COMMENT '注册手机号',
+  `email` varchar(50) DEFAULT NULL COMMENT '注册邮箱',
+  `created` datetime NOT NULL,
+  `updated` datetime NOT NULL,
+  `openid` varchar(60) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `username` (`username`) USING BTREE,
+  UNIQUE KEY `phone` (`phone`) USING BTREE,
+  UNIQUE KEY `email` (`email`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='用户表';
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `mb_user`
+--
+
+LOCK TABLES `mb_user` WRITE;
+/*!40000 ALTER TABLE `mb_user` DISABLE KEYS */;
+INSERT INTO `mb_user` VALUES (1,'zmfdemo','E10ADC3949BA59ABBE56E057F20F883E',NULL,'514468780@qq.com','2019-01-17 01:39:07','2019-01-17 01:39:07','AE342306B2B680C2E7DFA640D83099AC');
+/*!40000 ALTER TABLE `mb_user` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2019-06-18 22:20:44
